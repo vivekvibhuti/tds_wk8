@@ -1,5 +1,10 @@
 import streamlit as st
-
+st.set_page_config(
+    page_title="Find the Largest Number",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    theme={"primary": "#F63366", "backgroundColor": "#0E1117", "secondaryBackgroundColor": "#31333F", "textColor": "#FFFFFF"}
+)
 def find_largest(num1, num2, num3):
     return max(num1, num2, num3)
 
